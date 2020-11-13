@@ -1,15 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-int main57(){
-	//sizeof·½·¨ÓÃÀ´Çó×Ö½ÚµÄ´óĞ¡£¬ÇÒsizeof²¢²»ÊÇ¿âº¯Êı£¬¶øÊÇ¹Ø¼ü×Ö
-	printf("%d\n", sizeof(char));//1¸ö×Ö½Ú
-	printf("%d\n", sizeof(short));//2¸ö×Ö½Ú
-	printf("%d\n", sizeof(int));/*×¢Òâint×Ö½ÚÔÚ16Î»ÖĞÎª2¸ö×Ö½Ú£¬ÔÚ32Î»ºÍ64Î»ÖĞÎª4¸ö×Ö½Ú*/
-	printf("%d\n", sizeof(long));/*×¢Òâlong×Ö½ÚÔÚwindowsÏµÍ³ÖĞ¶¼Îª4¸ö×Ö½Ú£¬ÔÚlinux64Î»ÏµÍ³ÖĞlongÕ¼°Ë¸ö×Ö½Ú*/
-	printf("%d\n", sizeof(long long));//8¸ö×Ö½Ú
-	printf("%d\n", sizeof(float));//4¸ö×Ö½Ú
-	printf("%d\n", sizeof(double));//8¸ö×Ö½Ú
-	printf("%d\n", sizeof(long double));//8¸ö×Ö½Ú
+int main(){
+	//sizeofæ–¹æ³•ç”¨æ¥æ±‚å­—èŠ‚çš„å¤§å°ï¼Œä¸”sizeofå¹¶ä¸æ˜¯åº“å‡½æ•°ï¼Œè€Œæ˜¯å…³é”®å­—
+	printf("%d\n", sizeof(char));//1ä¸ªå­—èŠ‚
+	printf("%d\n", sizeof(short));//2ä¸ªå­—èŠ‚
+	printf("%d\n", sizeof(int));/*æ³¨æ„intå­—èŠ‚åœ¨16ä½ä¸­ä¸º2ä¸ªå­—èŠ‚ï¼Œåœ¨32ä½å’Œ64ä½ä¸­ä¸º4ä¸ªå­—èŠ‚*/
+	printf("%d\n", sizeof(long));/*æ³¨æ„longå­—èŠ‚åœ¨windowsç³»ç»Ÿä¸­éƒ½ä¸º4ä¸ªå­—èŠ‚ï¼Œåœ¨linux64ä½ç³»ç»Ÿä¸­longå å…«ä¸ªå­—èŠ‚*/
+	printf("%d\n", sizeof(long long));//8ä¸ªå­—èŠ‚
+	printf("%d\n", sizeof(float));//4ä¸ªå­—èŠ‚
+	printf("%d\n", sizeof(double));//8ä¸ªå­—èŠ‚
+	printf("%d\n", sizeof(long double));//8ä¸ªå­—èŠ‚
 	return 0;
 
 }
