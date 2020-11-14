@@ -1,20 +1,20 @@
 
 #define _CRT_SECURE_NO_WARNINGS 1
-#include<stdio.h>/*头文件，里面包含了当前的printf()函数，具体的实现已经由
-                 库里面实现好了，只需拿来调用即可*/
+#include<stdio.h>/*ͷ�ļ�����������˵�ǰ��printf()�����������ʵ���Ѿ���
+                 ������ʵ�ֺ��ˣ�ֻ���������ü���*/
 
-int main()/*int为方法的返回时类型，main为方法的名称，小括号里面为参数列表
-		  即为形参，且参数列表可有可无*/
-		  //且main函数作为程序的入口，有且只有一个
+int main()/*intΪ�����ķ���ʱ���ͣ�mainΪ���������ƣ�С��������Ϊ�����б�
+		  ��Ϊ�βΣ��Ҳ����б����п���*/
+		  //��main������Ϊ�������ڣ�����ֻ��һ��
 {
 
-	printf("helloworld");/*printf为库函数，分号代表了当前语句的结束,同时在
-	使用库函数时一定要使用对应它的头文件，例如printf函数所对应的都文件为
+	printf("helloworld");/*printfΪ�⺯�����ֺŴ����˵�ǰ���Ľ���,ͬʱ��
+	ʹ�ÿ⺯��ʱһ��Ҫʹ�ö�Ӧ����ͷ�ļ�������printf��������Ӧ�Ķ��ļ�Ϊ
 	stdio.h*/
 
-	return 0;//return语句代表了程序的结束，而当返回0时代表了程序的正常结束
+	return 0;//return�������˳���Ľ�������������0ʱ�����˳������������
 
-	//printf("helloworld请22");//若是在return语句后面写语句的话是不会被执行的
+	//printf("helloworld��22");//������return������д���Ļ��ǲ��ᱻִ�е�
 
 }
 
