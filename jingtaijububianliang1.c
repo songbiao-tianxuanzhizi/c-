@@ -7,7 +7,7 @@ void Test()//创建一个Test函数
 	i++;
 	printf("%d\n",i);
 }
-int main365(){
+int main(){
 	int i = 0;
 	for (; i < 10; i++)
 	{
